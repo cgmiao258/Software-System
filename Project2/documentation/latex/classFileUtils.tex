@@ -1,0 +1,146 @@
+\hypertarget{classFileUtils}{}\doxysection{File\+Utils Class Reference}
+\label{classFileUtils}\index{FileUtils@{FileUtils}}
+
+
+A collection of functions to parse through a file.  
+
+
+
+
+{\ttfamily \#include $<$File\+Utils.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classFileUtils_a350e997e445222ab830600710e01d281}{Is\+File\+Exists}} (std\+::ifstream \&fs)
+\begin{DoxyCompactList}\small\item\em Checks if the file exists. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classFileUtils_a6b7e8c04f012c8f9403c59d472e07c28}{Check\+Vote\+Type}} (std\+::ifstream \&fs)
+\begin{DoxyCompactList}\small\item\em Checks the election type of a file. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classFileUtils_abb7ca7d56888db50db676f6774597266}{Read\+Specific\+Line}} (std\+::ifstream \&fs, int line\+\_\+num)
+\begin{DoxyCompactList}\small\item\em Reads a single specified line of a file. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classFileUtils_aa10e614e95a9f8deb9d7e2ea7d15afbf}{Read\+Next\+Line}} (std\+::ifstream \&fs)
+\begin{DoxyCompactList}\small\item\em Reads a single line of a file starting where the file left off previously. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::pair$<$ std\+::string, std\+::string $>$ $>$ \mbox{\hyperlink{classFileUtils_ad6c9c285605cf3202fcd254f237c127a}{Get\+Names\+And\+Parties}} (std\+::ifstream \&fs, int line\+\_\+num)
+\begin{DoxyCompactList}\small\item\em Finds the names and party associations within a file. \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classFileUtils_a8e7b9bf3a3bbe5496f49d718020fc211}{Get\+Vote}} (std\+::ifstream \&fs)
+\begin{DoxyCompactList}\small\item\em Gets a vote from the file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A collection of functions to parse through a file. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classFileUtils_a6b7e8c04f012c8f9403c59d472e07c28}\label{classFileUtils_a6b7e8c04f012c8f9403c59d472e07c28}} 
+\index{FileUtils@{FileUtils}!CheckVoteType@{CheckVoteType}}
+\index{CheckVoteType@{CheckVoteType}!FileUtils@{FileUtils}}
+\doxysubsubsection{\texorpdfstring{CheckVoteType()}{CheckVoteType()}}
+{\footnotesize\ttfamily std\+::string File\+Utils\+::\+Check\+Vote\+Type (\begin{DoxyParamCaption}\item[{std\+::ifstream \&}]{fs }\end{DoxyParamCaption})}
+
+
+
+Checks the election type of a file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fs} & File name of a csv representing an election. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String that specifies the election type. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classFileUtils_ad6c9c285605cf3202fcd254f237c127a}\label{classFileUtils_ad6c9c285605cf3202fcd254f237c127a}} 
+\index{FileUtils@{FileUtils}!GetNamesAndParties@{GetNamesAndParties}}
+\index{GetNamesAndParties@{GetNamesAndParties}!FileUtils@{FileUtils}}
+\doxysubsubsection{\texorpdfstring{GetNamesAndParties()}{GetNamesAndParties()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::pair$<$std\+::string, std\+::string$>$ $>$ File\+Utils\+::\+Get\+Names\+And\+Parties (\begin{DoxyParamCaption}\item[{std\+::ifstream \&}]{fs,  }\item[{int}]{line\+\_\+num }\end{DoxyParamCaption})}
+
+
+
+Finds the names and party associations within a file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fs} & File name of a csv representing an election. \\
+\hline
+{\em line\+\_\+num} & Line number of the file to be read. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A list of paired items, where a name is associated with a party. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classFileUtils_a8e7b9bf3a3bbe5496f49d718020fc211}\label{classFileUtils_a8e7b9bf3a3bbe5496f49d718020fc211}} 
+\index{FileUtils@{FileUtils}!GetVote@{GetVote}}
+\index{GetVote@{GetVote}!FileUtils@{FileUtils}}
+\doxysubsubsection{\texorpdfstring{GetVote()}{GetVote()}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ File\+Utils\+::\+Get\+Vote (\begin{DoxyParamCaption}\item[{std\+::ifstream \&}]{fs }\end{DoxyParamCaption})}
+
+
+
+Gets a vote from the file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fs} & File name of a csv representing an election. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A singular vote. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classFileUtils_a350e997e445222ab830600710e01d281}\label{classFileUtils_a350e997e445222ab830600710e01d281}} 
+\index{FileUtils@{FileUtils}!IsFileExists@{IsFileExists}}
+\index{IsFileExists@{IsFileExists}!FileUtils@{FileUtils}}
+\doxysubsubsection{\texorpdfstring{IsFileExists()}{IsFileExists()}}
+{\footnotesize\ttfamily bool File\+Utils\+::\+Is\+File\+Exists (\begin{DoxyParamCaption}\item[{std\+::ifstream \&}]{fs }\end{DoxyParamCaption})}
+
+
+
+Checks if the file exists. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fs} & File name. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classFileUtils_aa10e614e95a9f8deb9d7e2ea7d15afbf}\label{classFileUtils_aa10e614e95a9f8deb9d7e2ea7d15afbf}} 
+\index{FileUtils@{FileUtils}!ReadNextLine@{ReadNextLine}}
+\index{ReadNextLine@{ReadNextLine}!FileUtils@{FileUtils}}
+\doxysubsubsection{\texorpdfstring{ReadNextLine()}{ReadNextLine()}}
+{\footnotesize\ttfamily std\+::string File\+Utils\+::\+Read\+Next\+Line (\begin{DoxyParamCaption}\item[{std\+::ifstream \&}]{fs }\end{DoxyParamCaption})}
+
+
+
+Reads a single line of a file starting where the file left off previously. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fs} & File name of a csv representing an election. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String representing the entire line in the file. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classFileUtils_abb7ca7d56888db50db676f6774597266}\label{classFileUtils_abb7ca7d56888db50db676f6774597266}} 
+\index{FileUtils@{FileUtils}!ReadSpecificLine@{ReadSpecificLine}}
+\index{ReadSpecificLine@{ReadSpecificLine}!FileUtils@{FileUtils}}
+\doxysubsubsection{\texorpdfstring{ReadSpecificLine()}{ReadSpecificLine()}}
+{\footnotesize\ttfamily std\+::string File\+Utils\+::\+Read\+Specific\+Line (\begin{DoxyParamCaption}\item[{std\+::ifstream \&}]{fs,  }\item[{int}]{line\+\_\+num }\end{DoxyParamCaption})}
+
+
+
+Reads a single specified line of a file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fs} & File name. \\
+\hline
+{\em line\+\_\+num} & Line number of the file to be read. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String representing the entire line in the file. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/nel01283/\+F\+Y24/\+S\+W\+E/repo-\/\+Team12/\+Project2/include/File\+Utils.\+h\end{DoxyCompactItemize}

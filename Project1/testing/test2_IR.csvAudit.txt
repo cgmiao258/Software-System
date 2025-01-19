@@ -1,0 +1,109 @@
+testingIR Election
+---------------
+Round: 1
+Candidate Name: Joyce 
+Candidate Vote Count: 5
+1 2 3 4 5 
+1 -1 -1 -1 -1 
+1 -1 2 3 -1 
+1 2 3 -1 4 
+1 2 -1 3 -1 
+Candidate Name: Henry 
+Candidate Vote Count: 11
+2 1 -1 3 -1 
+2 1 -1 -1 -1 
+-1 1 -1 2 -1 
+-1 1 -1 -1 2 
+-1 1 -1 -1 2 
+3 1 2 -1 -1 
+4 1 3 2 -1 
+-1 1 -1 2 -1 
+-1 1 -1 2 -1 
+4 1 5 2 3 
+-1 1 -1 2 -1 -1 
+Candidate Name: Rin 
+Candidate Vote Count: 1
+5 3 1 2 4 
+Candidate Name: Loon 
+Candidate Vote Count: 6
+-1 -1 -1 1 -1 
+2 -1 -1 1 -1 
+3 -1 2 1 -1 
+3 4 2 1 -1 
+-1 -1 -1 1 -1 
+-1 2 -1 1 -1 
+Candidate Name: Argon 
+Candidate Vote Count: 2
+4 -1 2 3 1 
+-1 -1 4 2 1 
+Lowest: Rin 
+---------------
+Round: 2
+Candidate Name: Joyce 
+Candidate Vote Count: 5
+1 2 3 4 5 
+1 -1 -1 -1 -1 
+1 -1 2 3 -1 
+1 2 3 -1 4 
+1 2 -1 3 -1 
+Candidate Name: Henry 
+Candidate Vote Count: 11
+2 1 -1 3 -1 
+2 1 -1 -1 -1 
+-1 1 -1 2 -1 
+-1 1 -1 -1 2 
+-1 1 -1 -1 2 
+3 1 2 -1 -1 
+4 1 3 2 -1 
+-1 1 -1 2 -1 
+-1 1 -1 2 -1 
+4 1 5 2 3 
+-1 1 -1 2 -1 -1 
+Candidate Name: Loon 
+Candidate Vote Count: 7
+-1 -1 -1 1 -1 
+2 -1 -1 1 -1 
+3 -1 2 1 -1 
+3 4 2 1 -1 
+-1 -1 -1 1 -1 
+-1 2 -1 1 -1 
+5 3 1 2 4 
+Candidate Name: Argon 
+Candidate Vote Count: 2
+4 -1 2 3 1 
+-1 -1 4 2 1 
+Lowest: Argon 
+---------------
+Round: 3
+Candidate Name: Joyce 
+Candidate Vote Count: 5
+1 2 3 4 5 
+1 -1 -1 -1 -1 
+1 -1 2 3 -1 
+1 2 3 -1 4 
+1 2 -1 3 -1 
+Candidate Name: Henry 
+Candidate Vote Count: 11
+2 1 -1 3 -1 
+2 1 -1 -1 -1 
+-1 1 -1 2 -1 
+-1 1 -1 -1 2 
+-1 1 -1 -1 2 
+3 1 2 -1 -1 
+4 1 3 2 -1 
+-1 1 -1 2 -1 
+-1 1 -1 2 -1 
+4 1 5 2 3 
+-1 1 -1 2 -1 -1 
+Candidate Name: Loon 
+Candidate Vote Count: 7
+-1 -1 -1 1 -1 
+2 -1 -1 1 -1 
+3 -1 2 1 -1 
+3 4 2 1 -1 
+-1 -1 -1 1 -1 
+-1 2 -1 1 -1 
+5 3 1 2 4 
+Lowest: Joyce 
+---------------
+Winner: Henry 

@@ -1,0 +1,123 @@
+\hypertarget{classIR}{}\doxysection{IR Class Reference}
+\label{classIR}\index{IR@{IR}}
+
+
+Instant Runoff election type that inheirites from the \mbox{\hyperlink{classElection}{Election}} class.  
+
+
+
+
+{\ttfamily \#include $<$I\+R.\+h$>$}
+
+
+
+Inheritance diagram for IR\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=136pt]{classIR__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for IR\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=233pt]{classIR__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classIR_a3e23e7ede407a146aa38d10e71413215}{IR}} (std\+::string \&file\+Path)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classIR_a420c114cf32385f10bc963eab71b6ead}\label{classIR_a420c114cf32385f10bc963eab71b6ead}} 
+void \mbox{\hyperlink{classIR_a420c114cf32385f10bc963eab71b6ead}{Run}} ()
+\begin{DoxyCompactList}\small\item\em Control function for conducting an \mbox{\hyperlink{classIR}{IR}} election. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classIR_af97e86cce0f4c740fa396f03214f033f}{flip\+Coin}} ()
+\begin{DoxyCompactList}\small\item\em Helper function to simulate flipping a fair coin. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classIR_a7476ae0e44515be88dd76746bb60611a}{validate\+Vote}} (std\+::vector$<$ int $>$ vote)
+\begin{DoxyCompactList}\small\item\em Helper function that determines if a ballot is valid if it has at least half of the candidates ranked Reads in a line of ballot and decides if there are enough votes. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::vector$<$ int $>$ $>$ \mbox{\hyperlink{classIR_acb7e31df8ceb11a91b0ce9406d9763f7}{Get\+Invalid\+Votes}} ()
+\begin{DoxyCompactList}\small\item\em Helper function to get the invalid vote list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIR_ae693ac1bb6c22e45c99464122b8b1767}\label{classIR_ae693ac1bb6c22e45c99464122b8b1767}} 
+std\+::string {\bfseries Winner\+Name}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Instant Runoff election type that inheirites from the \mbox{\hyperlink{classElection}{Election}} class. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classIR_a3e23e7ede407a146aa38d10e71413215}\label{classIR_a3e23e7ede407a146aa38d10e71413215}} 
+\index{IR@{IR}!IR@{IR}}
+\index{IR@{IR}!IR@{IR}}
+\doxysubsubsection{\texorpdfstring{IR()}{IR()}}
+{\footnotesize\ttfamily I\+R\+::\+IR (\begin{DoxyParamCaption}\item[{std\+::string \&}]{file\+Path }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Path} & File name. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classIR_af97e86cce0f4c740fa396f03214f033f}\label{classIR_af97e86cce0f4c740fa396f03214f033f}} 
+\index{IR@{IR}!flipCoin@{flipCoin}}
+\index{flipCoin@{flipCoin}!IR@{IR}}
+\doxysubsubsection{\texorpdfstring{flipCoin()}{flipCoin()}}
+{\footnotesize\ttfamily int I\+R\+::flip\+Coin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Helper function to simulate flipping a fair coin. 
+
+\begin{DoxyReturn}{Returns}
+An int as representing the candidate. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classIR_acb7e31df8ceb11a91b0ce9406d9763f7}\label{classIR_acb7e31df8ceb11a91b0ce9406d9763f7}} 
+\index{IR@{IR}!GetInvalidVotes@{GetInvalidVotes}}
+\index{GetInvalidVotes@{GetInvalidVotes}!IR@{IR}}
+\doxysubsubsection{\texorpdfstring{GetInvalidVotes()}{GetInvalidVotes()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::vector$<$int$>$ $>$ I\+R\+::\+Get\+Invalid\+Votes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Helper function to get the invalid vote list. 
+
+\begin{DoxyReturn}{Returns}
+An vector of vector of int, representing invalid votes 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classIR_a7476ae0e44515be88dd76746bb60611a}\label{classIR_a7476ae0e44515be88dd76746bb60611a}} 
+\index{IR@{IR}!validateVote@{validateVote}}
+\index{validateVote@{validateVote}!IR@{IR}}
+\doxysubsubsection{\texorpdfstring{validateVote()}{validateVote()}}
+{\footnotesize\ttfamily bool I\+R\+::validate\+Vote (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$}]{vote }\end{DoxyParamCaption})}
+
+
+
+Helper function that determines if a ballot is valid if it has at least half of the candidates ranked Reads in a line of ballot and decides if there are enough votes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vote} & A vector of ints containing the votes that are going to be verified. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A bool representing if the ballot is valid or not, returning true if it is or false if it is not. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/nel01283/\+F\+Y24/\+S\+W\+E/repo-\/\+Team12/\+Project2/include/I\+R.\+h\end{DoxyCompactItemize}

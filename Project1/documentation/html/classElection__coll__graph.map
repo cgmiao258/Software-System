@@ -1,0 +1,5 @@
+<map id="Election" name="Election">
+<area shape="rect" id="node1" title="Base class for future types of elections." alt="" coords="77,95,151,121"/>
+<area shape="rect" id="node2" href="$classAuditSystem.html" title=" " alt="" coords="5,5,111,32"/>
+<area shape="rect" id="node3" href="$classFileUtils.html" title="A collection of functions to parse through a file." alt="" coords="134,5,209,32"/>
+</map>

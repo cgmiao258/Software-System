@@ -1,0 +1,4 @@
+<map id="OPL" name="OPL">
+<area shape="rect" id="node1" title="Open Party List election type that inheirites from the Election class." alt="" coords="19,80,66,107"/>
+<area shape="rect" id="node2" href="$classElection.html" title="Base class for future types of elections." alt="" coords="5,5,80,32"/>
+</map>

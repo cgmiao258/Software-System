@@ -1,0 +1,5 @@
+<map id="Election" name="Election">
+<area shape="rect" id="node1" title="Base class for future types of elections." alt="" coords="21,5,95,32"/>
+<area shape="rect" id="node2" href="$classIR.html" title="Instant Runoff election type that inheirites from the Election class." alt="" coords="5,80,44,107"/>
+<area shape="rect" id="node3" href="$classOPL.html" title="Open Party List election type that inheirites from the Election class." alt="" coords="68,80,115,107"/>
+</map>

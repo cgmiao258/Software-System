@@ -1,0 +1,5 @@
+<map id="DataStructure" name="DataStructure">
+<area shape="rect" id="node1" title="Base class for candidates and parrties involved with elections." alt="" coords="57,5,169,32"/>
+<area shape="rect" id="node2" href="$classIRCandidate.html" title="IR candidate that inheirites from the DataStructure class. Tracks their name, votes,..." alt="" coords="5,80,107,107"/>
+<area shape="rect" id="node3" href="$classOPLParty.html" title="OPL party that inheirites from the DataStructure class. The party contains the candidates and their v..." alt="" coords="131,80,213,107"/>
+</map>

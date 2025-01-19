@@ -1,0 +1,128 @@
+\hypertarget{classIRCandidate}{}\doxysection{I\+R\+Candidate Class Reference}
+\label{classIRCandidate}\index{IRCandidate@{IRCandidate}}
+
+
+\mbox{\hyperlink{classIR}{IR}} candidate that inheirites from the \mbox{\hyperlink{classDataStructure}{Data\+Structure}} class. Tracks their name, votes, and whether they are still in the election.  
+
+
+
+
+{\ttfamily \#include $<$I\+R\+Candidate.\+h$>$}
+
+
+
+Inheritance diagram for I\+R\+Candidate\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classIRCandidate__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for I\+R\+Candidate\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classIRCandidate__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classIRCandidate_af391a4f75502acbe2d6172c5f32794b6}{I\+R\+Candidate}} (std\+::string name)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classIRCandidate_a62a906e3b2fa09f7b585f57afc34b608}{Add\+Votes}} (std\+::vector$<$ int $>$ vote)
+\begin{DoxyCompactList}\small\item\em Add votes to a candidate. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classIRCandidate_a98029edcad0f722986c61c35df91788d}{Display\+Votes}} ()
+\begin{DoxyCompactList}\small\item\em Display current votes. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classIRCandidate_a6f53ced3d1e1a37304d407cebf56beae}{Is\+In\+Race}} ()
+\begin{DoxyCompactList}\small\item\em Check if the candidate is in the race. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::vector$<$ int $>$ $>$ \mbox{\hyperlink{classIRCandidate_a42240f90c9efcb3849d6ef26cc0fcbec}{Get\+Votes}} ()
+\begin{DoxyCompactList}\small\item\em Get all of the votes from this candidate and remove from race. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classIR}{IR}} candidate that inheirites from the \mbox{\hyperlink{classDataStructure}{Data\+Structure}} class. Tracks their name, votes, and whether they are still in the election. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classIRCandidate_af391a4f75502acbe2d6172c5f32794b6}\label{classIRCandidate_af391a4f75502acbe2d6172c5f32794b6}} 
+\index{IRCandidate@{IRCandidate}!IRCandidate@{IRCandidate}}
+\index{IRCandidate@{IRCandidate}!IRCandidate@{IRCandidate}}
+\doxysubsubsection{\texorpdfstring{IRCandidate()}{IRCandidate()}}
+{\footnotesize\ttfamily I\+R\+Candidate\+::\+I\+R\+Candidate (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Name of the candidate. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classIRCandidate_a62a906e3b2fa09f7b585f57afc34b608}\label{classIRCandidate_a62a906e3b2fa09f7b585f57afc34b608}} 
+\index{IRCandidate@{IRCandidate}!AddVotes@{AddVotes}}
+\index{AddVotes@{AddVotes}!IRCandidate@{IRCandidate}}
+\doxysubsubsection{\texorpdfstring{AddVotes()}{AddVotes()}}
+{\footnotesize\ttfamily void I\+R\+Candidate\+::\+Add\+Votes (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$}]{vote }\end{DoxyParamCaption})}
+
+
+
+Add votes to a candidate. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vote} & A singular vote. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classIRCandidate_a98029edcad0f722986c61c35df91788d}\label{classIRCandidate_a98029edcad0f722986c61c35df91788d}} 
+\index{IRCandidate@{IRCandidate}!DisplayVotes@{DisplayVotes}}
+\index{DisplayVotes@{DisplayVotes}!IRCandidate@{IRCandidate}}
+\doxysubsubsection{\texorpdfstring{DisplayVotes()}{DisplayVotes()}}
+{\footnotesize\ttfamily std\+::string I\+R\+Candidate\+::\+Display\+Votes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Display current votes. 
+
+\begin{DoxyReturn}{Returns}
+String of current votes. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classIRCandidate_a42240f90c9efcb3849d6ef26cc0fcbec}\label{classIRCandidate_a42240f90c9efcb3849d6ef26cc0fcbec}} 
+\index{IRCandidate@{IRCandidate}!GetVotes@{GetVotes}}
+\index{GetVotes@{GetVotes}!IRCandidate@{IRCandidate}}
+\doxysubsubsection{\texorpdfstring{GetVotes()}{GetVotes()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::vector$<$int$>$ $>$ I\+R\+Candidate\+::\+Get\+Votes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get all of the votes from this candidate and remove from race. 
+
+\begin{DoxyReturn}{Returns}
+A vector of votes. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classIRCandidate_a6f53ced3d1e1a37304d407cebf56beae}\label{classIRCandidate_a6f53ced3d1e1a37304d407cebf56beae}} 
+\index{IRCandidate@{IRCandidate}!IsInRace@{IsInRace}}
+\index{IsInRace@{IsInRace}!IRCandidate@{IRCandidate}}
+\doxysubsubsection{\texorpdfstring{IsInRace()}{IsInRace()}}
+{\footnotesize\ttfamily bool I\+R\+Candidate\+::\+Is\+In\+Race (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Check if the candidate is in the race. 
+
+\begin{DoxyReturn}{Returns}
+Bool that shows if the candidate is in the election. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/nel01283/\+F\+Y24/\+S\+W\+E/diff/repo-\/\+Team12/\+Project1/include/I\+R\+Candidate.\+h\end{DoxyCompactItemize}

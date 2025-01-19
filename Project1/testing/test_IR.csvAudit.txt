@@ -1,0 +1,35 @@
+testingIR Election
+---------------
+Round: 1
+Candidate Name: Rosen 
+Candidate Vote Count: 3
+1 3 4 2 
+1 -1 2 -1 
+1 2 3 -1 
+Candidate Name: Kleinberg 
+Candidate Vote Count: 0
+Candidate Name: Chou 
+Candidate Vote Count: 2
+3 2 1 4 
+-1 -1 1 2 
+Candidate Name: Royce 
+Candidate Vote Count: 1
+-1 -1 -1 1 
+Lowest: Kleinberg 
+---------------
+Round: 2
+Candidate Name: Rosen 
+Candidate Vote Count: 3
+1 3 4 2 
+1 -1 2 -1 
+1 2 3 -1 
+Candidate Name: Chou 
+Candidate Vote Count: 2
+3 2 1 4 
+-1 -1 1 2 
+Candidate Name: Royce 
+Candidate Vote Count: 1
+-1 -1 -1 1 
+Lowest: Royce 
+---------------
+Winner: Rosen 

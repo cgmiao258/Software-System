@@ -1,0 +1,4 @@
+<map id="IRCandidate" name="IRCandidate">
+<area shape="rect" id="node1" title="IR candidate that inheirites from the DataStructure class. Tracks their name, votes,..." alt="" coords="11,80,112,107"/>
+<area shape="rect" id="node2" href="$classDataStructure.html" title="Base class for candidates and parrties involved with elections." alt="" coords="5,5,117,32"/>
+</map>

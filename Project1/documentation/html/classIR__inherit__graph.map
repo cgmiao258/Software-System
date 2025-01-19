@@ -1,0 +1,4 @@
+<map id="IR" name="IR">
+<area shape="rect" id="node1" title="Instant Runoff election type that inheirites from the Election class." alt="" coords="23,80,62,107"/>
+<area shape="rect" id="node2" href="$classElection.html" title="Base class for future types of elections." alt="" coords="5,5,80,32"/>
+</map>

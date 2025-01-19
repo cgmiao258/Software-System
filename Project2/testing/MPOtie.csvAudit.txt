@@ -1,0 +1,23 @@
+MPO Election
+---------------
+Name: Pike
+party: D
+Name: Foster
+party: D
+Name: Deutsch
+party: R
+Name: Borg
+party: R
+Name: Jones
+party: R
+Name: Smith
+party: I
+Pike: 1
+Foster: 2
+Deutsch: 4
+Borg: 0
+Jones: 2
+Smith: 1
+Seats Available: 2
+Winner of seat 1: Deutsch
+Winner of seat 2: Jones

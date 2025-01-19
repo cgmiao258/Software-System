@@ -1,0 +1,113 @@
+\hypertarget{classOPLParty}{}\doxysection{O\+P\+L\+Party Class Reference}
+\label{classOPLParty}\index{OPLParty@{OPLParty}}
+
+
+\mbox{\hyperlink{classOPL}{O\+PL}} party that inheirites from the \mbox{\hyperlink{classDataStructure}{Data\+Structure}} class. The party contains the candidates and their votes.  
+
+
+
+
+{\ttfamily \#include $<$O\+P\+L\+Party.\+h$>$}
+
+
+
+Inheritance diagram for O\+P\+L\+Party\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classOPLParty__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for O\+P\+L\+Party\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classOPLParty__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classOPLParty_af23978e2bc027183d9eeec13de908903}{O\+P\+L\+Party}} (std\+::string name)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOPLParty_a4594f5e1ade0947468f6a9cd99d91dd0}{Add\+Member}} (std\+::string member)
+\begin{DoxyCompactList}\small\item\em Add a candidate to a party. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOPLParty_ad2c5b4be91d5d4fed2e6857c9bb2ec9b}{Add\+Vote}} (std\+::string name)
+\begin{DoxyCompactList}\small\item\em Add a vote to a candidate within the party. \end{DoxyCompactList}\item 
+std\+::map$<$ std\+::string, int $>$ \mbox{\hyperlink{classOPLParty_ae8ab06f5c4dcfb1fec10ba1f91df64c2}{get\+Member\+List}} ()
+\begin{DoxyCompactList}\small\item\em Get a list of the candidates within the party and their votes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classOPL}{O\+PL}} party that inheirites from the \mbox{\hyperlink{classDataStructure}{Data\+Structure}} class. The party contains the candidates and their votes. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classOPLParty_af23978e2bc027183d9eeec13de908903}\label{classOPLParty_af23978e2bc027183d9eeec13de908903}} 
+\index{OPLParty@{OPLParty}!OPLParty@{OPLParty}}
+\index{OPLParty@{OPLParty}!OPLParty@{OPLParty}}
+\doxysubsubsection{\texorpdfstring{OPLParty()}{OPLParty()}}
+{\footnotesize\ttfamily O\+P\+L\+Party\+::\+O\+P\+L\+Party (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the party. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classOPLParty_a4594f5e1ade0947468f6a9cd99d91dd0}\label{classOPLParty_a4594f5e1ade0947468f6a9cd99d91dd0}} 
+\index{OPLParty@{OPLParty}!AddMember@{AddMember}}
+\index{AddMember@{AddMember}!OPLParty@{OPLParty}}
+\doxysubsubsection{\texorpdfstring{AddMember()}{AddMember()}}
+{\footnotesize\ttfamily void O\+P\+L\+Party\+::\+Add\+Member (\begin{DoxyParamCaption}\item[{std\+::string}]{member }\end{DoxyParamCaption})}
+
+
+
+Add a candidate to a party. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em member} & Name of the candidate \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classOPLParty_ad2c5b4be91d5d4fed2e6857c9bb2ec9b}\label{classOPLParty_ad2c5b4be91d5d4fed2e6857c9bb2ec9b}} 
+\index{OPLParty@{OPLParty}!AddVote@{AddVote}}
+\index{AddVote@{AddVote}!OPLParty@{OPLParty}}
+\doxysubsubsection{\texorpdfstring{AddVote()}{AddVote()}}
+{\footnotesize\ttfamily void O\+P\+L\+Party\+::\+Add\+Vote (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+
+
+Add a vote to a candidate within the party. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the candidate who receives the vote. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classOPLParty_ae8ab06f5c4dcfb1fec10ba1f91df64c2}\label{classOPLParty_ae8ab06f5c4dcfb1fec10ba1f91df64c2}} 
+\index{OPLParty@{OPLParty}!getMemberList@{getMemberList}}
+\index{getMemberList@{getMemberList}!OPLParty@{OPLParty}}
+\doxysubsubsection{\texorpdfstring{getMemberList()}{getMemberList()}}
+{\footnotesize\ttfamily std\+::map$<$std\+::string,int$>$ O\+P\+L\+Party\+::get\+Member\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get a list of the candidates within the party and their votes. 
+
+\begin{DoxyReturn}{Returns}
+A mapping of each candidate and their vote count. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/nel01283/\+F\+Y24/\+S\+W\+E/repo-\/\+Team12/\+Project2/include/O\+P\+L\+Party.\+h\end{DoxyCompactItemize}

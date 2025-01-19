@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classDataStructure.html" title="Base class for candidates and parrties involved with elections." alt="" coords="5,31,117,57"/>
+<area shape="rect" id="node2" href="$classIRCandidate.html" title="IR candidate that inheirites from the DataStructure class. Tracks their name, votes,..." alt="" coords="165,5,267,32"/>
+<area shape="rect" id="node3" href="$classOPLParty.html" title="OPL party that inheirites from the DataStructure class. The party contains the candidates and their v..." alt="" coords="175,56,257,83"/>
+</map>

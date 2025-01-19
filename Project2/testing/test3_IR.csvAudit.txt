@@ -1,0 +1,50 @@
+testingIR Election
+---------------
+Round: 1
+Candidate Name: Rin 
+Candidate Vote Count: 1
+1 2 4 3 
+Candidate Name: Joyce 
+Candidate Vote Count: 1
+-1 1 -1 -1 
+Candidate Name: Argon 
+Candidate Vote Count: 3
+-1 -1 1 -1 
+-1 -1 1 -1 
+-1 2 1 -1 
+Candidate Name: Barium 
+Candidate Vote Count: 2
+-1 -1 -1 1 
+-1 2 -1 1 
+Lowest: Rin 
+---------------
+Round: 2
+Candidate Name: Joyce 
+Candidate Vote Count: 2
+-1 1 -1 -1 
+1 2 4 3 
+Candidate Name: Argon 
+Candidate Vote Count: 3
+-1 -1 1 -1 
+-1 -1 1 -1 
+-1 2 1 -1 
+Candidate Name: Barium 
+Candidate Vote Count: 2
+-1 -1 -1 1 
+-1 2 -1 1 
+Lowest: Joyce 
+---------------
+Round: 3
+Candidate Name: Argon 
+Candidate Vote Count: 3
+-1 -1 1 -1 
+-1 -1 1 -1 
+-1 2 1 -1 
+Candidate Name: Barium 
+Candidate Vote Count: 3
+-1 -1 -1 1 
+-1 2 -1 1 
+1 2 4 3 
+Lowest: Barium 
+---------------
+Winner: Argon 

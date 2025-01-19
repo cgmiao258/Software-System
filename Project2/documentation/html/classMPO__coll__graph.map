@@ -1,0 +1,6 @@
+<map id="MPO" name="MPO">
+<area shape="rect" id="node1" title="Multiple Popularity Only election type that inheirites from the Election class." alt="" coords="88,171,140,197"/>
+<area shape="rect" id="node2" href="$classElection.html" title="Base class for future types of elections." alt="" coords="77,95,151,121"/>
+<area shape="rect" id="node3" href="$classAuditSystem.html" title=" " alt="" coords="5,5,111,32"/>
+<area shape="rect" id="node4" href="$classFileUtils.html" title="A collection of functions to parse through a file." alt="" coords="134,5,209,32"/>
+</map>
